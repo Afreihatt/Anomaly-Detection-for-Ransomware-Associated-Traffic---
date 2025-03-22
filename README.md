@@ -14,6 +14,7 @@ This research focuses on developing an advanced anomaly detection system to iden
 - The research uses the UGRansome dataset, which includes network traffic logs with features such as timestamps, protocols, IP addresses, ransomware families, and financial transactions (USD and BTC). The dataset is labeled, making it suitable for supervised anomaly detection.
 
 **Dataset Features:**
+
 Time: Timestamp of the event.
 
 Protocol: Communication protocol used (e.g., TCP, UDP).
@@ -29,35 +30,37 @@ Netflow_Bytes: Volume of data transferred.
 Prediction: Classification labels (Anomaly, Synthetic Signature, Signature).
 
 **Methodology**
+
 The research follows the Onion Model framework, which includes:
 
-Philosophy: Positivism, focusing on measurable and data-driven methods.
+- Philosophy: Positivism, focusing on measurable and data-driven methods.
 
-Theory Development: Deductive approach, testing existing anomaly detection theories.
+- Theory Development: Deductive approach, testing existing anomaly detection theories.
 
-Methodological Choice: Mixed-method approach, combining quantitative and qualitative data.
+- Methodological Choice: Mixed-method approach, combining quantitative and qualitative data.
 
-Research Strategy: Longitudinal study to track anomalies over time.
+- Research Strategy: Longitudinal study to track anomalies over time.
 
-Data Collection: Primary data from surveys with cybersecurity professionals and secondary data from the UGRansome dataset.
+- Data Collection: Primary data from surveys with cybersecurity professionals and secondary data from the UGRansome dataset.
 
-Data Analysis: Data cleaning, feature transformation, and exploratory data analysis (EDA) using tools like sweetviz.
+- Data Analysis: Data cleaning, feature transformation, and exploratory data analysis (EDA) using tools like sweetviz.
 
-Model Evaluation: Performance metrics include accuracy, precision, recall, and F1-score.
+- Model Evaluation: Performance metrics include accuracy, precision, recall, and F1-score.
 
 -------------------------------------------------------------------------------------------------------------------------
 **Machine Learning Models**
-The following models were evaluated for ransomware detection:
 
-Decision Trees: Interpretable but prone to overfitting.
+--The following models were evaluated for ransomware detection:
 
-Gradient Boosting: High accuracy (98.3%) and balanced performance across all metrics.
+--Decision Trees: Interpretable but prone to overfitting.
 
-Random Forest: Reduces overfitting and handles high-dimensional data.
+--Gradient Boosting: High accuracy (98.3%) and balanced performance across all metrics.
 
-Artificial Neural Networks (ANN): Excels at detecting complex patterns, achieving 97.9% accuracy.
+--Random Forest: Reduces overfitting and handles high-dimensional data.
 
-Naive Bayes: Simple and fast but struggles with feature independence assumptions.
+--Artificial Neural Networks (ANN): Excels at detecting complex patterns, achieving 97.9% accuracy.
+
+--Naive Bayes: Simple and fast but struggles with feature independence assumptions.
 
 ---------------------------------------------------------------------------------------------------------------------------
 **Anomaly Detection Techniques**
