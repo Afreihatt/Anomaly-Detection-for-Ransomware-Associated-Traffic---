@@ -45,6 +45,7 @@ Data Analysis: Data cleaning, feature transformation, and exploratory data analy
 
 Model Evaluation: Performance metrics include accuracy, precision, recall, and F1-score.
 
+-------------------------------------------------------------------------------------------------------------------------
 **Machine Learning Models**
 The following models were evaluated for ransomware detection:
 
@@ -58,7 +59,8 @@ Artificial Neural Networks (ANN): Excels at detecting complex patterns, achievin
 
 Naive Bayes: Simple and fast but struggles with feature independence assumptions.
 
-Anomaly Detection Techniques
+---------------------------------------------------------------------------------------------------------------------------
+**Anomaly Detection Techniques**
 Three unsupervised anomaly detection techniques were applied:
 
 Isolation Forest: Detects anomalies by isolating data points, identifying 27,402 anomalies.
@@ -67,6 +69,7 @@ Local Outlier Factor (LOF): Detects anomalies based on local density, identifyin
 
 One-Class SVM: Detects anomalies by defining normal data boundaries, identifying 3,046 anomalies.
 
+---------------------------------------------------------------------------------------------------------------------------
 **Results**
 - Gradient Boosting emerged as the best-performing model with 98.3% accuracy, followed by ANN with 97.9% accuracy.
 - Isolation Forest detected the most anomalies, while One-Class SVM was the most conservative.
