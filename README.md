@@ -1,5 +1,5 @@
 # Anomaly-Detection-for-Ransomware-Associated-Traffic---
-Anomaly-Detection-for-Ransomware-Associated-Traffic---
+
 README: Ransomware Detection Using Anomaly Detection and Machine Learning
 Overview
 This research focuses on developing an advanced anomaly detection system to identify ransomware-associated network traffic using the UGRansome dataset. The study integrates traditional classification models with anomaly detection techniques to enhance ransomware detection capabilities. The research follows the Onion Model framework, employing a mixed-method approach, and evaluates various machine learning models and anomaly detection techniques to improve cybersecurity measures.
